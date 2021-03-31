@@ -6,9 +6,9 @@
    
 - Objetivos Específicos:
  
-   - Determinar los diferentes voltajes que existen dentro de los circuitos ca. y cómo son medidos.
-   - Comprender los diferentes efectos de las bobinas y capacitores dentro de los circuitos ca.
-   - Comparar y determinar los resultados de dos tipos de circuitos, uno con capacitores y otro con inductores.
+   - Analizar los diferentes voltajes de salida que ocurren en cada uno de los tres circuitos dados.
+   - Comparar los diferentes valores de voltajes que existen en los tres circuitos
+   - Conocer los usos de los amplificadores operacionales y como estos son aplicados dentro de los circuitos.
    
 2. MARCO TEÓRICO
    
