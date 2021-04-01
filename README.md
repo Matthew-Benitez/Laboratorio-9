@@ -60,31 +60,10 @@
    
      ![image](https://user-images.githubusercontent.com/75439689/113229510-be29f780-925c-11eb-87d4-bbcbb038f703.png)
      
-     Para el análisis de resultados se imprimieron dos tablas, una por cada circuito, donde los datos se distribuyen en 4 columnas: frecuencia, voltaje pico, voltaje rms y la corriente, cada dato fue tomado mediante el simulador dcac lab, y luego fueron puestos en estas tablas.
+     Las ondas se evaluarán primero entre el circuito 1 y el circuito 2:
+     Las ondas como se pueden observar son diferentes, ya que el circuito 2 tiene como fuente ondas pulsantes donde llegá al valor pico enseguida y llega a 0 en un instante, y el circuito 1 tiene fuente con onda sinuoidal y llega a su valor pico de 4.3 V, pero como podemos observar, en la gráfica del circuito 1 se puede ver que su valor pico va tanto a positivo como a negativo, por otro lado en el circuito 2 el voltaje invertido se nota mucho más, primero se amplifica a un valor de 14.89 y cambia a -.
      
-     Tabla Circuito con Capacitores Voltaje pico:
-     
-     Los voltajes pico tiene un valor casi aproximado al voltaje de fuente, pero a medida que la frecuencia aumenta, su voltaje pico va disminuyendo en relación al voltaje de fuente. Al principio la frecuenia de 0 Hz debería darnos un voltaje de 10v, sin embargo, el simulador no puede determinar esto.
-     
-     Tabla Circuito con Capacitores Voltaje rms:
-     
-     Los voltajes rms expresan el voltaje real que capta una carga, estos voltajes representan el 0.707 del voltaje pico de los medidos en la segunda columna de la primera tabla, esto es experimentado en las tablas, cada dato es al menos algo cercacno al 0.707 de cada voltaje pico respectivamente de cada frecuencia.
-     
-     Tabla Circuito con Capacitores Corriente:
-     
-     Los valores de corrientes se comportan de manera inversa a la de los voltajes; en cada voltaje, a medida que aumentaba la frecuencia, disminuía el voltaje, por otro lado, la corriente va en aumento a medida que la frecuencia aumenta, esto es evidenciado en la tabla donde los datos fueron sacados del simulador.
-     
-     Tabla Circuito con Inductores Voltaje pico:
-     
-     Los voltajes pico en la tabla de inductores se comportan de manera contraria a los voltajes de la tabla del circuito con capacitores, los voltajes pico empiezan cerca del 0, pero por cada frecuencia que va aumentando, los valores del voltaje se van acercando al valor del voltaje de fuente, como es evidenciado en la segunda columna de la tabla de inductores.
-     
-     Tabla Circuito con Inductores Voltaje rms:
-     
-     Los voltajes de la tercera columna cumplen la teoría de que valen el 0.707 del valor de voltaje pico, y como fue dicho antes, estos valores van en aumento a medida que la frecuencia va aumentando, al contrario de como se comportaba los voltajes rms en la tabla del circuito con capacitores.
-     
-     Tabla Circuito con Inductores Corriente:
-     
-     En esta tabla se evidencia la corriente que se pasa por parte de la resistencia, pero se puede observar que los valores que pasan por este se ven afectados de manera inversa por la frecuencia, es decir, por cada frecuencia que se va aumentando el valor de la corriente va disminuyendo, al contrario de la tabla de circuito con capacitores, hasta llegar al valor de 0 A.
+     Por otro lado el circuito 1 y 3, son parecidos ya que son básicamente
      
    5.3. Preguntas
    
