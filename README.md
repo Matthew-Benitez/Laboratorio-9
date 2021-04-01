@@ -70,7 +70,7 @@
      
    5.3. Preguntas
    
-   1. Anote parámetros técnicos importantes de un amplificador operacional que deben ser tomados en cuenta al momento de utilizarlos en un proyecto.
+  1. Anote parámetros técnicos importantes de un amplificador operacional que deben ser tomados en cuenta al momento de utilizarlos en un proyecto.
 
    Al utilizar los amplificadores operacionales en la práctico, hay que recalcar varios factores que se omiten en el modelo esquemático ya que se considera al amplificador operacional como ideal:
    
@@ -82,11 +82,11 @@
    - Si la diferencia de voltaje entre las entradas del OpAmp es diferente de cero, el valor de voltaje de salida será cero.
 
 
-   3. Investigue las características de amplificadores operacionales distintos a los utilizados en esta práctica.
+  2. Investigue las características de amplificadores operacionales distintos a los utilizados en esta práctica.
       
       Los amplificadores operacionales también se utilizan para: Sumador Inversor. - El amplificador operacional sumador permite al usuario sumar varios niveles de voltaje a la vez que se invierte el signo del voltaje. Sumador No Inversor. - la tensión de salida es proporcional a la suma de tensiones de entrada. Amplificador Diferencial (Restador). - Este amplificador usa ambas entradas invertida y no invertida con una ganancia de uno, para producir una salida igual a la diferencia entre las entradas.
       
-   3. Investigue otras aplicaciones con circuitos más complejos que utilizan amplificadores operacionales.
+  3. Investigue otras aplicaciones con circuitos más complejos que utilizan amplificadores operacionales.
    
    ![image](https://user-images.githubusercontent.com/75439689/113233888-d18d9080-9265-11eb-8601-68a575b25afa.png)
    
@@ -101,8 +101,9 @@
    
 6. CONCLUSIONES
 
-   - El voltaje de salida de los diferentes circuitos, tiene su polaridad opuesta a la de la fuente de voltaje. Lo que significa que, cuando la fuente de voltaje emite un voltaje positivo, el voltaje de salida presenta valores negativos y viceversa. Esto se debe porque el Amplificador operacional es inversor, ya que la fuente se encuentra en serie con una resistencia y conla entrada inversora del OpAmp (la entrada que posee el signo -).
-   - 
+   - En los valores medidos del voltaje de salida de cada uno de los circuitos, se pudo verificar el efecto de un amplificador, el cual consiste en aumentar el nivel de voltaje a comparación del valor inicial de la fuente de voltaje ca. Pero dicho efeto puede variar en ciertos parámetros según la fomra en que esté conectado el circuito y según los elementos que dicho circuito presenta.
+   - El voltaje de salida de los diferentes circuitos, tiene su polaridad opuesta a la de la fuente de voltaje. Lo que significa que, cuando la fuente de voltaje emite un voltaje positivo, el voltaje de salida presenta valores negativos, y viceversa. Esto se debe porque el Amplificador operacional es inversor, ya que la fuente se encuentra en serie con una resistencia, y esta a su vez está en serie con la entrada inversora del OpAmp (la entrada que posee el signo -).
+   - En el segundo circuito que posee un capacitor, se pudo ver un efecto diferente a comparación de los otros ciurcuitos. Ya que el voltaje de salida medido en el osciloscopio, no variaba a comparación de los otros, practicamente se volvió en una salida de voltaje directo ya que sus valores variaban desde -14.03 a -14.
 
 
 7. BIBLIOGRAFÍA
