@@ -16,7 +16,29 @@
    
 3. DIAGRAMAS
    
+   ![image](https://user-images.githubusercontent.com/75439689/113229697-1bbe4400-925d-11eb-9ebf-3ea3d8e1bbf3.png)
    
+   *Elementos Circuito 1*
+   
+   ![image](https://user-images.githubusercontent.com/75439689/113229726-27aa0600-925d-11eb-98d1-dc517b743344.png)
+   
+   *Circuito 1*
+   
+   ![image](https://user-images.githubusercontent.com/75439689/113229745-30024100-925d-11eb-913e-5a0e204da038.png)
+   
+   *Elementos Circuito 2*
+   
+   ![image](https://user-images.githubusercontent.com/75439689/113229829-5d4eef00-925d-11eb-9714-3491b01569da.png)
+   
+   *Circuito 2*
+   
+   ![image](https://user-images.githubusercontent.com/75439689/113229836-60e27600-925d-11eb-8945-8146c9328561.png)
+   
+   *Elementos Circuito 3*
+   
+   ![image](https://user-images.githubusercontent.com/75439689/113229842-63dd6680-925d-11eb-9f5f-bb7b94432680.png)
+   
+   *Circuito 3*
    
 4. LISTA DE COMPONENTES
    
@@ -28,19 +50,15 @@
 
    5.1. Procedimiento
    
-    - Ingresar ala plataforma dcaclab y seleccionar los elementos listados previamente dando los valores respectivos.
-    - Conectar en serie la fuente de valor pico 10 V, con la resistencia de 100 ohm. y con una conexión en paralelo de dos capacitancias (y posteriormente con dos inductancias en lugar de ellas).
-    - Conectar los extremos del osciloscopio a los extremos de la conexión en paralelo de las capacitancias (o inductancias).
-    - Conectar el multímetro con la perilla en la opción 12V AC, que permitirá medir el voltaje rms en los mismos extremos de la conexión en paralelo mencionada anteriormente
-    - Conectar en serie entre la fuente y la resistencia, un multímetro con la perilla en la opción de 3 A, que permitirá observar los valores de la corriente para la resistencia.
-    - Colocar un valor de 0Hz a la frecuencia de la fuente y tomar las respectivas medidas.
-    - Repetir el paso anterior pero con diferentes valores de frecuencia: 10 Hz, 50 Hz, 100Hz, 500Hz y 1000Hz.
-    - Para tomar el valor de la corriente de la resistencia, es importante conocer que el multímetro no va a dar un valor fijo, sino que va a dar los valores según el tiempo, dado que es una corriente alterna. Por ello, se debe observar el mayor valor de entre todos los que se ven en el mulímetro y tomar dicho valor, el cual es el valor pico de la corriente.
+    Circuito 1. - 
+    
+    Circuito 2. -
+    
+    Circuito 3. - En la plataforma de multisim primero sacaremos los materiales, para la realización de este, el útlimo circuito, se necesita de 2 fuentes de voltaje ca. que tengan 1 V de voltaje pico y 3kHz de frecuencia, 3 resistencias, una de 1kohm, una de 300ohm y otra de 200ohm, 2 fuentes de cd. y un Opamp. Conectaremos las 2 fuentes de ca. en paralelo, y estas se concetaran en serie con la entrada inversora del Opamp, las resistencias de 300ohm y la de 200ohm serán conectados en serie con las fuentes ca. La resistencia de 1kohm se conectará en paralelo con el Opamp, justo en el extremo de las fuentes y en la parte de salida del Opamp; las fuentes de cd. de 14V se conectan en las alimentaciones del amplificador, luego dejamos abierto el circuito y lo empezamos a medir las fuentes y el voltaje de salida del Opamp. 
 
    5.2. Análisis de Resultados
    
-     ![image](https://user-images.githubusercontent.com/75439689/112569419-1f138480-8db2-11eb-8020-fd5d8867b814.png)
-     ![image](https://user-images.githubusercontent.com/75439689/112569423-220e7500-8db2-11eb-9f39-554f6e1c49e6.png)
+     ![image](https://user-images.githubusercontent.com/75439689/113229510-be29f780-925c-11eb-87d4-bbcbb038f703.png)
      
      Para el análisis de resultados se imprimieron dos tablas, una por cada circuito, donde los datos se distribuyen en 4 columnas: frecuencia, voltaje pico, voltaje rms y la corriente, cada dato fue tomado mediante el simulador dcac lab, y luego fueron puestos en estas tablas.
      
