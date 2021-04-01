@@ -53,9 +53,9 @@
 
    5.1. Procedimiento
    
-    Circuito 1. - Ingresar a la plataforma online de multisim y seleccionar los materiales con los siguientes valores: una fuente ca sinusoidal de valor pico 1V y frecuencia 3kHz, resistencias R1 de 1kOhm y R2 de 4.3 kOhm, dos fuentes cd de 14 V y el amplificador opracional (OpAmp). Primero conectamos en serie la fuente con R1 hacia un nodo, el cual también se conecta con la entrada inversora del ampplificador y también dicho nodo se conecta con la resistencia R2. Posteriormente se conecta a tierra la entrada no inversora, la fuente ca, y una fuente cd que va a estar conectada su polo positivo con la entrada Vs del Opamp. La otra entrada de -Vs del opamp se conecta con el polo negativo de la segunda feunte cd y su polo positivo se conecta a tierra. Finalmente se conecta la salida del Opamp a un cabla que se extiende y que encuentra conectado en paralelo al otro extremo de R2.
+    Circuito 1. - Ingresar a la plataforma online de multisim y seleccionar los materiales con los siguientes valores: una fuente ca sinusoidal de valor pico 1V y frecuencia 3kHz, resistencias R1 de 1kOhm y R2 de 4.3 kOhm, dos fuentes cd de 14 V y el amplificador opracional (OpAmp). Primero conectamos en serie la fuente con R1 hacia un nodo, el cual también se conecta con la entrada inversora del ampplificador y también dicho nodo se conecta con la resistencia R2. Posteriormente se conecta a tierra la entrada no inversora, la fuente ca, y una fuente cd que va a estar conectada su polo positivo con la entrada Vs del Opamp. La otra entrada de -Vs del opamp se conecta con el polo negativo de la segunda feunte cd y su polo positivo se conecta a tierra. Finalmente se conecta la salida del Opamp a un cable que se extiende y que se encuentra conectado en paralelo al otro extremo de R2.
     
-    Circuito 2. -
+    Circuito 2. - Dentro de la plataforma online de multisim, se procede a seleccionar los materiales correspondientes para este circuito: una fuente ca con función de pulso, cuyos valor de voltaje pico es 5V y  su frecuencia 3kHz; una resistencia R1 de 1 kohm; un capacitor de 1uF; dos fuentes cd de 14V y el amplificador (OpAmp). Primero conectamos la fuente ca con R1 y a un nodo que a su vez se conecta con un extremo de la capacitancia y a la entrada de voltaje ninversora del Opamp. Posteriormente se conecta a tierra la entrada no inversora, la fuente ca, y una fuente cd que va a estar conectada su polo positivo con la entrada Vs del Opamp. La otra entrada de -Vs del opamp se conecta con el polo negativo de la segunda feunte cd y su polo positivo se conecta a tierra. Finalmente se conecta la salida del Opamp a un cable que se extiende y que se encuentra conectado en paralelo al otro extremo del capacitor.
     
     Circuito 3. - En la plataforma de multisim primero sacaremos los materiales, para la realización de este, el útlimo circuito, se necesita de 2 fuentes de voltaje ca. que tengan 1 V de voltaje pico y 3kHz de frecuencia, 3 resistencias, una de 1kohm, una de 300ohm y otra de 200ohm, 2 fuentes de cd. y un Opamp. Conectaremos las 2 fuentes de ca. en paralelo, y estas se concetaran en serie con la entrada inversora del Opamp, las resistencias de 300ohm y la de 200ohm serán conectados en serie con las fuentes ca. La resistencia de 1kohm se conectará en paralelo con el Opamp, justo en el extremo de las fuentes y en la parte de salida del Opamp; las fuentes de cd. de 14V se conectan en las alimentaciones del amplificador, luego dejamos abierto el circuito y lo empezamos a medir las fuentes y el voltaje de salida del Opamp. 
 
@@ -71,11 +71,22 @@
    5.3. Preguntas
    
    1. Anote parámetros técnicos importantes de un amplificador operacional que deben ser tomados en cuenta al momento de utilizarlos en un proyecto.
-   2. Investigue las características de amplificadores operacionales distintos a los utilizados en esta práctica.
+
+   Al utilizar los amplificadores operacionales en la práctico, hay que recalcar varios factores que se omiten en el modelo esquemático ya que se considera al amplificador operacional como ideal:
+   
+   - Resistencia interna en la entrada inversora del OpAmp.
+   - Resistencia interna en la entrada no inversora del OpAmp.
+   - Resistencia interna en la salida del OpAmp.
+   - Los valores de voltaje de las fuentes que conectan a las patas laterales del OpAmp (valores +Vs y -Vs) deben ser iguales para que su diferencia sea suma algebraica sea cero.
+   - La diferencia de voltaje entre las entradas del OpAmp (entrada inversora y no inversora) debe ser igual a cero.
+   - Si la diferencia de voltaje entre las entradas del OpAmp es diferente de cero, el valor de voltaje de salida será cero.
+
+
+   3. Investigue las características de amplificadores operacionales distintos a los utilizados en esta práctica.
       
       Los amplificadores operacionales también se utilizan para: Sumador Inversor. - El amplificador operacional sumador permite al usuario sumar varios niveles de voltaje a la vez que se invierte el signo del voltaje. Sumador No Inversor. - la tensión de salida es proporcional a la suma de tensiones de entrada. Amplificador Diferencial (Restador). - Este amplificador usa ambas entradas invertida y no invertida con una ganancia de uno, para producir una salida igual a la diferencia entre las entradas.
       
-   4. Investigue otras aplicaciones con circuitos más complejos que utilizan amplificadores operacionales.
+   3. Investigue otras aplicaciones con circuitos más complejos que utilizan amplificadores operacionales.
    
    ![image](https://user-images.githubusercontent.com/75439689/113233888-d18d9080-9265-11eb-8601-68a575b25afa.png)
    
@@ -90,9 +101,8 @@
    
 6. CONCLUSIONES
 
-   - Cuando la frecuencia de la fuente es igual a cero, se trata de una fuente de corriente continua, la cual produce un efecto distinto sobre los capacitores y los inductores a diferencia de lo que produce la corriente alterna en ellos. Dicho efecto consiste en que ambos almacenan energía, pero considerando también que el capacitor impide completamente el paso de corriente. 
-   - En el circuito con capacitores, a medida que aumenta la frecuencia de la fuente, el valor pico de la corriente aumenta, esto se debe a que la reactancia capacitiva es inversamente proporcional a la frecuencia, por ello se obtiene un valor cada vez menor de la reactancia, lo que permite un mayor paso de corriente.
-   - Por otra parte, en el circuito con inductores, a medida que aumenta la frecuencia, la reactancia inductiva también lo hace ya que son directamente proporcionales, haciendo que el valor pico de la corriente disminuya debido a que se impide mayormente el flujo de corriente en el circuito.
+   - El voltaje de salida de los diferentes circuitos, tiene su polaridad opuesta a la de la fuente de voltaje. Lo que significa que, cuando la fuente de voltaje emite un voltaje positivo, el voltaje de salida presenta valores negativos y viceversa. Esto se debe porque el Amplificador operacional es inversor, ya que la fuente se encuentra en serie con una resistencia y conla entrada inversora del OpAmp (la entrada que posee el signo -).
+   - 
 
 
 7. BIBLIOGRAFÍA
