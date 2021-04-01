@@ -53,7 +53,7 @@
 
    5.1. Procedimiento
    
-    Circuito 1. - 
+    Circuito 1. - Ingresar a la plataforma online de multisim y seleccionar los materiales con los siguientes valores: una fuente ca sinusoidal de valor pico 1V y frecuencia 3kHz, resistencias R1 de 1kOhm y R2 de 4.3 kOhm, dos fuentes cd de 14 V y el amplificador opracional (OpAmp). Primero conectamos en serie la fuente con R1 hacia un nodo, el cual también se conecta con la entrada inversora del ampplificador y también dicho nodo se conecta con la resistencia R2. Posteriormente se conecta a tierra la entrada no inversora, la fuente ca, y una fuente cd que va a estar conectada su polo positivo con la entrada Vs del Opamp. La otra entrada de -Vs del opamp se conecta con el polo negativo de la segunda feunte cd y su polo positivo se conecta a tierra. Finalmente se conecta la salida del Opamp a un cabla que se extiende y que encuentra conectado en paralelo al otro extremo de R2.
     
     Circuito 2. -
     
