@@ -12,6 +12,9 @@
    
 2. MARCO TEÓRICO
    
+![0001 (14)](https://user-images.githubusercontent.com/76133212/113235237-54afe600-9268-11eb-9839-5e8bc4da5ffa.jpg)
+![0001 (15)](https://user-images.githubusercontent.com/76133212/113235248-58dc0380-9268-11eb-8a2b-580f172e5c9c.jpg)
+
    
    
 3. DIAGRAMAS
