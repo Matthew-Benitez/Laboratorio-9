@@ -63,32 +63,28 @@
      Las ondas se evaluarán primero entre el circuito 1 y el circuito 2:
      Las ondas como se pueden observar son diferentes, ya que el circuito 2 tiene como fuente ondas pulsantes donde llegá al valor pico enseguida y llega a 0 en un instante, y el circuito 1 tiene fuente con onda sinuoidal y llega a su valor pico de 4.3 V, pero como podemos observar, en la gráfica del circuito 1 se puede ver que su valor pico va tanto a positivo como a negativo, por otro lado en el circuito 2 el voltaje invertido se nota mucho más, primero se amplifica a un valor de 14.89 y cambia a -.
      
-     Por otro lado el circuito 1 y 3, son parecidos ya que son básicamente
+     Por otro lado el circuito 1 y 3, son parecidos ya que son básicamente el mismo circuito, pero en la parte de la izquierda se une otra fuente de ca. del mismo voltaje y la misma frecuencia, pero como se dijo antes, es casi el mismo circuito, por lo que se puede esperar que se tenga valores de voltaje parecidos, donde el voltaje pico del circuito 1 tiene el doble del voltaje pico del circuito 3, por lo que se espera que el voltaje de salida del último circuito sea el doble del circuito 1.
      
    5.3. Preguntas
    
-     1. ¿Cómo se comportan la bobina y el capacitor en corriente continua (cero Hz)?
-       
-     Cuando un capacitor se encuentra con corriente continua, este evita el paso de dicha corriente, ya que almacena carga eléctrica en sus extremos. Dicha carga se relaciona con los valores medidos de voltaje en los extremos de la conexión en paralelo de las dos capacitancias.
-     Por otro lado, con las bobinas sucede algo similar, ya que también se acumula energía en ellas, la cual a su vez también se encuentra relacionada con los valores medidos de voltaje. 
-         
-     2. ¿Cómo se comportan la bobina y el capacitor en corriente alterna?
-
-     Tanto la bobina como el capacitor, cuando se encuentran en corriente alterna permiten el paso de dicha corriente, pero con una oposición a ella, lo cual se conoce como reactancia, la cual puede ser capacitiva (si se trata de un capacitor) o inductiva (si se trata de un inductor).
+   1. Anote parámetros técnicos importantes de un amplificador operacional que deben ser tomados en cuenta al momento de utilizarlos en un proyecto.
+   2. Investigue las características de amplificadores operacionales distintos a los utilizados en esta práctica.
       
-     3. ¿Qué cree usted que ocurriría con el voltaje Vo y la corriente de la resistencia en los circuitos analizados en esta práctica, si se utilizan dos bobinas o dos capacitores de valores distintos?
-
-     Dado que la reactancia depende de los valores de capacitancia e inductancia (dependiendo del tipo de reactancia que sea), por ello si varían dichos valores, también van a variar los valores de la corriente como de Vo.
-     Si se aumentan los valores de capacitancia, se obtendrá una reactancia capacitiva menor, lo cual permitirá un mayor paso de corriente, pero el valor en Vo disminuiría.
-     Por otro lado, si se aumentan los valores de inductancia, la reactancia inductiva será mayor, lo cual impedirá mayormente el paso de corriente, haciendo que el valor de Vo aumente.
-       
-     4. ¿Qué son los valores eficaces de voltaje y corriente?
-
-     Los valores eficaces también se conocen como rms, los cuales son los valores de voltaje o corriente alternos, que generarían un igual efecto si se tratara de una fuente cd con los mismos valores.
-       
-
-  
-
+      Los amplificadores operacionales también se utilizan para: Sumador Inversor. - El amplificador operacional sumador permite al usuario sumar varios niveles de voltaje a la vez que se invierte el signo del voltaje. Sumador No Inversor. - la tensión de salida es proporcional a la suma de tensiones de entrada. Amplificador Diferencial (Restador). - Este amplificador usa ambas entradas invertida y no invertida con una ganancia de uno, para producir una salida igual a la diferencia entre las entradas.
+      
+   4. Investigue otras aplicaciones con circuitos más complejos que utilizan amplificadores operacionales.
+   
+   ![image](https://user-images.githubusercontent.com/75439689/113233888-d18d9080-9265-11eb-8601-68a575b25afa.png)
+   
+   Las aplicaciones serían:
+   Tarjetas de sensores que incorporan amplificador operacional en modo comparador. 
+   Instrumentación y control automotrices.
+   Circuitos integrados para comunicaciones.
+   Circuitos integrados para radio, audio y video.
+   Circuitos integrados para electrómetros usados en circuitos con impedancia de entrada muy elevada.
+   Circuitos integrados que funcionen con una sola fuente de alimentación.
+   Circuitos integrados que funcionen con fuentes de alimentación bipolares.
+   
 6. CONCLUSIONES
 
    - Cuando la frecuencia de la fuente es igual a cero, se trata de una fuente de corriente continua, la cual produce un efecto distinto sobre los capacitores y los inductores a diferencia de lo que produce la corriente alterna en ellos. Dicho efecto consiste en que ambos almacenan energía, pero considerando también que el capacitor impide completamente el paso de corriente. 
@@ -99,3 +95,4 @@
 7. BIBLIOGRAFÍA
 
    - Floyd, T. L. (2007). Principios de circuitos eléctricos (Octava ed.).
+   - Conoce lo más importante sobre amplificadores operacionales. (2021). Recuperado el 1 de Abril de 2021, de https://uelectronics.com/amplificadores-operacionales/
