@@ -12,25 +12,15 @@
    
 2. MARCO TEÓRICO
    
-   ![0001 (10)](https://user-images.githubusercontent.com/76133212/112571149-7535f700-8db5-11eb-849e-77ffd878c3cf.jpg)
-   ![0001 (9)](https://user-images.githubusercontent.com/76133212/112571156-7830e780-8db5-11eb-8c03-cdcf90ad42b6.jpg)
-
+   
    
 3. DIAGRAMAS
    
-   ![Simulador 8_Página_1](https://user-images.githubusercontent.com/75439689/112569049-7d8c3300-8db1-11eb-90c5-30d3b1101517.jpg)
-   ![Simulador 8_Página_2](https://user-images.githubusercontent.com/75439689/112569052-80872380-8db1-11eb-8d2b-0a85f2cc11e9.jpg)
-   ![Simulador 8_Página_3](https://user-images.githubusercontent.com/75439689/112569068-84b34100-8db1-11eb-8320-3f1c7198ac45.jpg)
-   ![Simulador 8_Página_4](https://user-images.githubusercontent.com/75439689/112569070-84b34100-8db1-11eb-9763-d028b36cfe7a.jpg)
-   ![Simulador 8_Página_5](https://user-images.githubusercontent.com/75439689/112569073-854bd780-8db1-11eb-803e-e33a3ee3f4a7.jpg)
-   ![Simulador 8_Página_6](https://user-images.githubusercontent.com/75439689/112569074-854bd780-8db1-11eb-9755-4bb522b21f8a.jpg)
-   ![Simulador 8_Página_7](https://user-images.githubusercontent.com/75439689/112569065-841aaa80-8db1-11eb-811a-b680a3865ab6.jpg)
-   ![Simulador 8_Página_8](https://user-images.githubusercontent.com/75439689/112569066-84b34100-8db1-11eb-875c-e6c380ec614c.jpg)
-
+   
    
 4. LISTA DE COMPONENTES
    
-   ![image](https://user-images.githubusercontent.com/75439689/112568012-d0fd8180-8daf-11eb-9c98-ada8c7f6883e.png)
+   ![image](https://user-images.githubusercontent.com/75439689/113228015-938a6f80-9259-11eb-8af3-280991a69b86.png)
    
    *Figura 4.1*
 
